@@ -1,6 +1,6 @@
 {
   "name": "cra-typescript-example",
-  "homepage":"http://1mosce.github.io/Atlana-test",
+  "homepage":"http://1mosce.github.io/atlana-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
