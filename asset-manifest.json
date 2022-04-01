@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Atlana-test/static/css/main.29f78620.css",
+    "main.js": "/Atlana-test/static/js/main.2b819b30.js",
+    "static/js/787.359a0f2b.chunk.js": "/Atlana-test/static/js/787.359a0f2b.chunk.js",
+    "index.html": "/Atlana-test/index.html",
+    "main.29f78620.css.map": "/Atlana-test/static/css/main.29f78620.css.map",
+    "main.2b819b30.js.map": "/Atlana-test/static/js/main.2b819b30.js.map",
+    "787.359a0f2b.chunk.js.map": "/Atlana-test/static/js/787.359a0f2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29f78620.css",
+    "static/js/main.2b819b30.js"
+  ]
+}
