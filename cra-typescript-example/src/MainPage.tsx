@@ -29,7 +29,6 @@ function MainPage() {
     (async () => {
       const { data: userResponse } = await gitRequest.getUser(searchValue);
       setUserResponse(userResponse);
-      console.log(userResponse);
     })();
   }, [searchValue]);
 
@@ -39,7 +38,6 @@ function MainPage() {
         searchValue
       );
       setUserReposResponse(userReposResponse);
-      console.log(userReposResponse);
     })();
   }, [windowActive === true]);
 
@@ -51,7 +49,6 @@ function MainPage() {
         userReposSearchValue
       );
       setSearchUserRepos(searchUserRepos);
-      console.log(searchUserRepos);
     })();
   }, [userReposSearchValue]);
 
