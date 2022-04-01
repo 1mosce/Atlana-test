@@ -56,10 +56,6 @@ export class gitRequest {
     return axios({
       method: "get",
       url: `https://api.github.com/users/${slug}`,
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-      },
     });
   }
 
@@ -69,10 +65,6 @@ export class gitRequest {
     return axios({
       method: "get",
       url: `https://api.github.com/users/${slug}/repos`,
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-      },
     });
   }
   static async getUserReposByRequest(
@@ -82,10 +74,10 @@ export class gitRequest {
     return axios({
       method: "get",
       url: `https://api.github.com/repos/${slug}/${query}`,
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-      },
+      // headers: {
+      //   Authorization: `Bearer ${token}`,
+      //   "Content-Type": "application/json",
+      // },
     });
   }
 }
